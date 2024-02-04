@@ -55,7 +55,6 @@ public String createToken(String subject, long ttlMillis) {
 }
 ```
 
-##### 4.2 HomeController.java
 ```
 ```
 
@@ -68,10 +67,6 @@ public String getSubject(String token) {
             .parseClaimsJws(token).getBody();
     return claims.getSubject();
 }
-```
-
-##### 5.3 HomeController.java
-```
 ```
 
 #
